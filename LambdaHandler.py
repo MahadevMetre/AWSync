@@ -1,9 +1,7 @@
 import boto3
 
 def get_volume_id_from_arn(volume_arn):
-    #split the ARN using the colon (':') separator
     arn_parts = volume_arn.split(':')
-    #The volume ID is the last part of the ARN after the 'volume/' prefix
     volume_id = arn_parts[-1].split('/')[-1]
     return volume_id
 
