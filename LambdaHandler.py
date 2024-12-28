@@ -1,19 +1,3 @@
-# AWSync youtube video
-# part 1: https://www.youtube.com/watch?v=ybbQW6cLKEQ
-# part 2: https://www.youtube.com/watch?v=DgavixR_w5Y
-# GitHub Link: https://github.com/iam-veeramalla/devops-project-ideas/tree/main/python/aws/Ninja
-
-# Resume mistakes corrections: 
-# 1. add month and year to projects
-# 2. Resume name : Mahadev Metre_DevOps Engineer.pdf
-# 3. project description : 
-#    1. use action words
-#    2. Quantify your Achievements
-#    3. Customize to the role
-# 4. Title at the top of the resume ex: MAHADEV METRE | AWS DevOps Engineer
-
-# Code:
-
 import boto3
 
 def get_volume_id_from_arn(volume_arn):
